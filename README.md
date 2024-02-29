@@ -1,5 +1,5 @@
 # Evently
-
+Site live here: https://event-app-six-chi.vercel.app/
 ## Introduction
 
 Evently is a comprehensive event management platform inspired by the functionality of Eventbrite. It offers a robust solution for creating, managing, and attending events. Designed with scalability and user experience in mind, Evently utilizes cutting-edge technologies to provide a seamless event management experience.
