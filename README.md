@@ -1,8 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Evently
+Site live here: https://event-app-six-chi.vercel.app/
+## Introduction
+
+Evently is a comprehensive event management platform inspired by the functionality of Eventbrite. It offers a robust solution for creating, managing, and attending events. Designed with scalability and user experience in mind, Evently utilizes cutting-edge technologies to provide a seamless event management experience.
+
+## Features
+
+Evently boasts a wide range of features to cater to all your event management needs:
+
+- **Events (CRUD)**: Full control over event management with capabilities to create, read, update, and delete events.
+- **Create Events**: Easily create new events by specifying essential details like title, date, location, and additional information.
+- **Read Events**: Access detailed views of all events, exploring specifics such as descriptions, schedules, and more.
+- **Update Events**: Dynamically modify event details to keep information accurate and current.
+- **Delete Events**: Simplify the removal of events, enabling effective management and curation of the platform.
+- **Related Events**: Discover events that are related to enhance user engagement on event details pages.
+- **Organized Events**: View events in a structured and user-friendly manner, including events created by users on their profile.
+- **Search & Filter**: Utilize a powerful search and filter system to find events that match specific preferences.
+- **New Category**: Add new event categories seamlessly, ensuring the platform remains adaptable and inclusive.
+- **Checkout and Pay with Stripe**: Experience smooth and secure payment transactions with Stripe integration.
+- **Event Orders**: Manage all event-related transactions with a comprehensive order management system.
+- **Search Orders**: Quickly and efficiently search through orders for easy tracking and management.
+
+## Technologies
+
+Evently is built using a variety of modern technologies and frameworks to ensure high performance and reliability:
+
+- Node.js
+- TypeScript
+- Next.js 14
+- Tailwind CSS
+- Shadcn
+- React Hook Form
+- Zod
+- Uploadthing
+- Mongoose
+- Clerk
+- Stripe
 
 ## Getting Started
 
-First, run the development server:
+To get the development server running:
 
 ```bash
 npm run dev
@@ -14,23 +51,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
