@@ -12,7 +12,7 @@ export default function Home() {
             <p className='p-regular-20 md:p-regular-24'>
               Book and learn helpful tips from 3168+ mentors in world-class companies with our global community
             </p>
-            <Button size={'lg'} asChild className='button w-full sm:w-fit'>
+            <Button size={'lg'} asChild className='button w-full sm:w-fit bg-red-500 hover:bg-red-800'>
               <Link href={'#events'}>Explore Now</Link>
             </Button>
           </div>
