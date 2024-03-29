@@ -19,10 +19,10 @@ const Header = () => {
         </nav>
         {/* </SignedIn> */}
         <div className='flex w-32 justify-end gap-3'>
-          <SignedIn>
-            <UserButton afterSignOutUrl='/'></UserButton>
-            <MobileNav></MobileNav>
-          </SignedIn>
+          {/* <SignedIn> commenting out for demo purposes*/}
+          <UserButton afterSignOutUrl='/'></UserButton>
+          <MobileNav></MobileNav>
+          {/* </SignedIn> */}
           <SignedOut>
             <Button asChild className='rounded-full bg-red-400 hover:bg-red-700' size={'lg'}>
               <Link href={'/sign-in'}>Login</Link>
