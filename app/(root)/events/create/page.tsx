@@ -3,7 +3,9 @@ import { auth } from '@clerk/nextjs';
 
 const CreateEvent = () => {
   const { sessionClaims } = auth(); //clerk hook call to get userid
-  const userId = sessionClaims?.userID as string; //? is incase sessionClaims doesnt exist
+
+  const userId = sessionClaims?.userId as string; //? is incase sessionClaims doesnt exist
+
   return (
     <>
       <section className='bg-primary-50 bg-dotted-pattern bg-dover bg-center py-5 md:py-10'>
